@@ -11,11 +11,9 @@
 *	Edit this section
 *
 * ======================================================= */
-br{
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+
+#logo {
+  display: inline;
 }
 body {
   font-family: "Inconsolata", Arial, sans-serif;
@@ -608,6 +606,13 @@ body {
   -ms-border-radius: 5px;
   border-radius: 5px;
   margin-top: 0px;
+}
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 @media screen and (max-width: 992px) {
   #fh5co-team .team-box {
